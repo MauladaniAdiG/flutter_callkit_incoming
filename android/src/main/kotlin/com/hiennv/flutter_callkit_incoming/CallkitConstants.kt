@@ -20,6 +20,8 @@ object CallkitConstants {
             "com.hiennv.flutter_callkit_incoming.ACTION_CALL_CALLBACK"
     const val ACTION_CALL_CUSTOM =
             "com.hiennv.flutter_callkit_incoming.ACTION_CALL_CUSTOM"
+    const val ACTION_CALL_ENDED_WITHOUT_NOTIF =
+        "com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED_WITHOUT_NOTIF"
 
 
     const val EXTRA_CALLKIT_INCOMING_DATA = "EXTRA_CALLKIT_INCOMING_DATA"

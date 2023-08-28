@@ -89,6 +89,11 @@ class FlutterCallkitIncoming {
     await _channel.invokeMethod("endAllCalls");
   }
 
+  /// End all calls.
+  static Future endAllCallsWithoutListenEvent() async {
+    await _channel.invokeMethod("endAllCallsWithoutListenEvent");
+  }
+
   /// Get active calls.
   /// On iOS: return active calls from Callkit.
   /// On Android: only return last call
